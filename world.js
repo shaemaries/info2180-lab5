@@ -23,7 +23,7 @@ function getCountry(event){
  function getCity(event){
     event.preventDefault()
     var s_input= document.getElementById("country").value
-    var params = { country: `${s_input}`, context: 'cities'  }
+    var params = { country: `${s_input}`, context: 'cities'}
     var urlParams = new URLSearchParams(Object.entries(params));
     
     fetch('./world.php?'+ urlParams)

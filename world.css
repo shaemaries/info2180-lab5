@@ -13,7 +13,7 @@ body {
     max-width: 960px;
     width: 100%;
 }
-
+/*--HEADER--*/
 header {
     text-align: center;
     padding: 5px;
@@ -24,6 +24,8 @@ header {
 #head{
     display: flex;
 }
+
+/*---MAIN---*/
 main {
     padding: 25px;
 }
@@ -47,6 +49,8 @@ input{
     border: 1px solid #ccc;
     border-radius: 4px;    
 }
+
+/*---BUTTONS---*/
 .buttons{
     display: flex;
     justify-content: center;
@@ -74,7 +78,7 @@ input{
     margin-left: 6px;
     cursor: pointer;
 }
-
+/*---TABLE---*/
 .table{
     display: table;
     border-collapse: collapse;
